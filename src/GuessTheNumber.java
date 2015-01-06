@@ -62,6 +62,14 @@ public class GuessTheNumber extends JPanel implements ActionListener {
 			public void actionPerformed(ActionEvent arg0) {
 				JOptionPane pane = new JOptionPane();
 				pane.showMessageDialog(null,"Ja sam pametan racunar, pogodio sam broj iz "+counter+" puta");
+				end = 10000;
+				start = 0;
+				mid = (start + end) / 2;
+				String midString;
+				midString = Integer.toString(mid);
+				field.setText(midString);
+				counter=0;
+			
 				return;
 			}
 		});
