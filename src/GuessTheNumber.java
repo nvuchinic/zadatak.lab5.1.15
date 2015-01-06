@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
-public class GuessTheNumber extends JPanel implements ActionListener {
+public class GuessTheNumber extends JPanel {
 	static JButton buttonBigger = new JButton("Bigger");
 	static JButton buttonSmaller = new JButton("Smaller");
 	static JButton buttonBingo = new JButton("Bingo");
