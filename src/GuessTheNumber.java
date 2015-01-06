@@ -60,8 +60,8 @@ public class GuessTheNumber extends JPanel implements ActionListener {
 
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				// TODO Auto-generated method stub
-				//JOptionPane.showMessageDialog(window,"Ja sam pametan racunar, pogodio sam broj iz "+counter+" puta");
+				JOptionPane pane = new JOptionPane();
+				pane.showMessageDialog(null,"Ja sam pametan racunar, pogodio sam broj iz "+counter+" puta");
 				return;
 			}
 		});
